@@ -5,8 +5,8 @@ A simple and intuitive unit converter built with Vite and published on **Netlify
 
 ## 🚀 Live Demo
 
-Check out the deployed version on Netlify: **[Unit Converter](https://your-netlify-url.netlify.app)**  
-_(Replace with your actual Netlify link)_
+Check out the deployed version on Netlify: **[Unit Converter](https://unit-converter-scrim.netlify.app/)**  
+
 
 ## 🔁 What It Converts
 
