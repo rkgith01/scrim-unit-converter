@@ -1,0 +1,143 @@
+/* Import Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #f4f4f4;
+    /* background: linear-gradient(135deg, #1E2A38, #121A26); */
+    /* background-color: #694af5; */
+    color: white;
+}
+
+/* Container */
+.container {
+    /* width: 100%; */
+    min-width: 450px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: black;
+}
+
+/* Header Section */
+.hero h1 {
+    font-size: 34px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    color: #ffffff;
+}
+
+/* Input & Button Section */
+.hero {
+    /* background: rgba(255, 255, 255, 0.15); */
+    background-color: #694af5;
+    padding: 20px;
+    backdrop-filter: blur(10px);
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+input {
+    max-width: 130px;
+    padding: 12px;
+    margin-bottom: 15px;
+    border: 2px solid #8874e0;
+    outline: none;
+    border-radius: 8px;
+    font-size: 3.8rem;
+    font-weight: 700;
+    text-align: center;
+    background-color: transparent;
+    color: white;
+    transition: 0.3s ease-in-out;
+}
+
+input::placeholder {
+    color: rgba(255, 255, 255, 0.6);
+}
+
+input:focus {
+    background: rgba(255, 255, 255, 0.4);
+    box-shadow: 0 0 8px rgba(255, 255, 255, 0.5);
+}
+
+button {
+    width: 100%;
+    max-width: 130px;
+    padding: 12px;
+    font-size: 18px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    background-color: white;
+    /* background: linear-gradient(135deg, #ff914d, #ff6f3c); */
+    color: black;
+    font-weight: 600;
+    transition: 0.3s ease-in-out;
+}
+
+button:hover {
+    /* background: linear-gradient(135deg, #ff6f3c, #d64b20); */
+    background-color: black;
+    color: whitesmoke;
+    box-shadow: 0 5px 15px rgba(255, 145, 77, 0.4);
+}
+
+/* Converted List Section */
+.list-heading{
+    margin-top: 15px;
+}
+
+.converted-list {
+    width: 100%;
+    max-width: 500px;
+    margin-top: 40px;
+    min-height: 345px;
+    height: 100%;
+}
+
+.list-view {
+    padding: 28px;
+    /* background: rgba(255, 255, 255, 0.14); */
+    /* border-radius: 12px; */
+    margin-bottom: 12px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.18);
+    transition: 0.3s ease-in-out;
+}
+
+.list-view:hover {
+    background: rgba(255, 255, 255, 0.25);
+    transform: scale(1.02);
+}
+
+.list-view h3 {
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 10px;
+    color: #534e73;
+}
+
+.list-view p {
+    font-size: 17px;
+    font-weight: 400;
+}
+
+footer{
+    padding: 10px;
+    margin: 25px 0 2px;
+    background-color: dimgray;
+    width: 100%;
+}
