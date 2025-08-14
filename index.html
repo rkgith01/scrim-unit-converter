@@ -1,19 +1,37 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
   <head>
-    <link rel="stylesheet" href="index.css" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="A simple unit converter for length, volume, and mass."
+    />
+    <link rel="icon" href="./uc-logo.png" />
+    <title>Unit Converter</title>
+    <link rel="stylesheet" href="./index.css" />
   </head>
 
   <body>
     <div class="container">
       <div class="hero">
         <h1>Unit Converter</h1>
-        <input type="text" id="unit-converter" value="20" />
+        <input
+          type="number"
+          id="unit-converter"
+          value="20"
+          aria-label="Enter value to convert"
+        />
         <button id="convert-btn">Convert</button>
       </div>
-      <!-- <h2 class="list-heading">Convertion result:</h2> -->
+
       <div class="converted-list" id="conversion-list"></div>
-      <!-- <footer>Unit Converter - Scrimba Project by Raj</footer> -->
+
+      <!-- <footer>
+        <p>Unit Converter – Scrimba Project by Raj</p>
+      </footer> -->
     </div>
-    <script src="index.js"></script>
+
+    <script type="module" src="./index.js"></script>
   </body>
 </html>
