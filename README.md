@@ -1,6 +1,5 @@
 # 🧮 Unit Converter
 
----
 
 A simple and intuitive unit converter built with Vite and published on **Netlify**. This project was created as part of the [Scrimba Frontend Career Path](https://scrimba.com/frontend-path-c0j/~09t/s05m642tse/head), and it demonstrates how to convert between commonly used units of measurement.
 
